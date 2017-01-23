@@ -19,7 +19,6 @@ extension StoryboardIdentifiable where Self: UIViewController {
 
 enum ViewControllersFactoryStoryboardType: String {
     case main = "Main"
-    case reportFlow = "ReportFlow"
 }
 
 final class ViewControllersFactory: NSObject {
